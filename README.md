@@ -26,11 +26,13 @@ Use this command to build an executable
 rebuild [main.native] -pp refmt [main.re]
 ```
 
+Note: You'll want to use the same name for your input .re and output .native, rebuild doesn't like it otherwise.
+
 ### Steps for development
 
 - Write a .re file
-- Run it through the build function ```rebuild app.native -pp refmt test.re```
-- Execute ```./app.native```
+- Run it through the build function ```rebuild test.native -pp refmt test.re```
+- Execute ```./test.native```
 
 
-My app in particular takes an integer argument ```./app.native 14```.
+My app in particular takes an integer argument ```./test.native 14```.
