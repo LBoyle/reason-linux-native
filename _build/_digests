@@ -1,0 +1,5 @@
+"Rule: re -> cmo & cmi (%=test )": "\2262\251Bln\164\167\159\223`g)\027}8"
+"Rule: re dependecies (%=test )": "\220\148\030\192V\212\237\n\158\238K)\226\164\2040"
+"Resource: /home/louis/Development/ml-projects/test/test.re": "lQ\153\135\n\149\135\n\\U\188\184C\015q5"
+"Rule: ocaml: cmx* & o* -> native (%=test )": "\208\178v\210\161\018:~Jc^6\129\210Q\182"
+"Rule: re & rei -> cmx & o (%=test )": "t\r\195\156[\240g\182\024z\137\172\159\007\205B"
