@@ -19,6 +19,8 @@ opam install re
 opam install ocp-indent
 ```
 
+I occurrs to me that I'm using refmt below, this came from reason-cli, I'd just install reason-cli ```npm install -g reason-cli@3.2.0-linux```
+
 Then make a couple of bash scripts for switching between Reason and OCaml
 
 Put these aliases into your ~/.bashrc or ~/.zshrc
