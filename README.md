@@ -2,7 +2,7 @@
 
 **Warning**
 
-This setup doesn't work right now, I've run into a collision, I was warned when doing this not to use reason-cli. When converting reason to ocaml, refmt puts in bucklescript stuff, like Some((a, b)) in reason comes out ((Some (a, b))[@explicit_arity ]) in ocaml.
+This setup doesn't work right now, I've run into a collision, I was warned when doing this not to use reason-cli. When converting reason to ocaml, refmt puts in bucklescript stuff, like ```Some((a, b))``` in reason comes out ```((Some (a, b))[@explicit_arity ])``` in ocaml.
 
 You can use reason-tools to convert it, but I couldn't get it working command line, and it's a browser plugin!?!?
 
