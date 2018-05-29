@@ -1,10 +1,10 @@
 ### Starting build.
 # Target: test.ml.depends, tags: { extension:re, file:test.re, ocaml, ocamldep, quiet }
-ocamldep.opt -pp refmt -modules -pp 'refmt --print binary' -impl test.re | tee test.re.depends > test.ml.depends
+/usr/bin/ocamldep.opt -pp refmt -modules -pp 'refmt --print binary' -impl test.re | tee test.re.depends > test.ml.depends
 # Target: test.cmo, tags: { byte, compile, extension:cmo, extension:re, file:test.cmo, file:test.re, implem, ocaml, quiet }
-ocamlc.opt -c -pp refmt -pp 'refmt --print binary' -o test.cmo -intf-suffix .rei -impl test.re
+/usr/bin/ocamlc.opt -c -pp refmt -pp 'refmt --print binary' -o test.cmo -intf-suffix .rei -impl test.re
 # Target: test.cmx, tags: { compile, extension:cmx, extension:re, file:test.cmx, file:test.re, implem, native, ocaml, quiet }
-ocamlopt.opt -c -pp refmt -pp 'refmt --print binary' -o test.cmx -intf-suffix .rei -impl test.re
+/usr/bin/ocamlopt.opt -c -pp refmt -pp 'refmt --print binary' -o test.cmx -intf-suffix .rei -impl test.re
 # Target: test.native, tags: { dont_link_with, extension:native, file:test.native, link, native, ocaml, program, quiet }
-ocamlopt.opt test.cmx -o test.native
+/usr/bin/ocamlopt.opt test.cmx -o test.native
 # Compilation successful.
