@@ -2,7 +2,13 @@
 
 **Warning**
 
-This is my setup for writing linux native apps, using ReasonML syntax instead of OCaml. I did this on my workstation, which has bs-platform and reason-cli installed globally, for front-end dev, so far I've had no collisions.
+This is my setup for writing linux native apps, using ReasonML syntax instead of OCaml. I did this on my workstation, which has bs-platform and reason-cli installed globally, for front-end dev. 
+
+**It did cause collisions and broke the front-end setup.**
+
+I'm yet to try containerising or compartmentalising in some way. 
+
+I absolutely need to do both things on one machine, I won't settle for less. 
 
 Install OCaml and the other stuff
 
