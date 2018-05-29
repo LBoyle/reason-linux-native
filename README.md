@@ -6,9 +6,9 @@ This is my setup for writing linux native apps, using ReasonML syntax instead of
 
 **It did cause collisions and broke the front-end setup.**
 
-I'm yet to try containerising or compartmentalising in some way. 
+It was reason-cli merlin vs opam merlin. I'm yet to try containerising or compartmentalising in some way. This setup still relies on refmt, which doesn't come on opam, so you still need both. 
 
-I absolutely need to do both things on one machine, any less is unacceptable. 
+I absolutely need to do both things on one machine, any less is unacceptable. Should I accept less? In this day and age? No way.
 
 ***
 
