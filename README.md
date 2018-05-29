@@ -8,7 +8,9 @@ This is my setup for writing linux native apps, using ReasonML syntax instead of
 
 I'm yet to try containerising or compartmentalising in some way. 
 
-I absolutely need to do both things on one machine, I won't settle for less. 
+I absolutely need to do both things on one machine, any less is unacceptable. 
+
+***
 
 Install OCaml and the other stuff
 
